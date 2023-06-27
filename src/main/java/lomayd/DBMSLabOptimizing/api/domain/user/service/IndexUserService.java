@@ -23,7 +23,7 @@ public class IndexUserService {
         
         stopWatch.start();
         
-        for(int i=1; i<=100000; i++){
+        for(int i=1; i<=5; i++){
             IndexUser indexUser = IndexUser.builder()
                 .id("id_" + i)
                 .password("password_" + i)
